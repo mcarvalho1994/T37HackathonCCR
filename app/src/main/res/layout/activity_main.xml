@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/colorPrimaryDark">
+
+    <Button
+        android:id="@+id/btnAbrirDicas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dicas para sua viagem"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"/>
+
+    <TextView
+        android:id="@+id/lblInformacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aperte o Botão se estiver em alguma situação de risco."
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#f0f0f0"
+        android:layout_marginTop="70dp"
+        android:gravity="center" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="end"
+        >
+    <Button
+        android:id="@+id/btnSOS_mainActivity"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:background="@drawable/circlebutton"
+        android:text="S.O.S"
+        android:textColor="#FFFFFF"
+        android:textSize="100sp" />
+    </LinearLayout>
+
+</RelativeLayout>

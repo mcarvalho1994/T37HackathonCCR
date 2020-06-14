@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:background="@color/colorPrimaryDark"
+    android:paddingRight="16dp">
+
+    <EditText
+        android:id="@+id/edtTextUsuario_cadastroActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Informe seu usuário"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="#f0f0f0"
+        android:textColor="#f0f0f0"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/edtTextPassword_cadastroActivity"
+        android:hint="Informe sua senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="#f0f0f0"
+        android:textColor="#f0f0f0"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/edtTextNome"
+        android:hint="Informe seu nome completo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="#f0f0f0"
+        android:textColor="#f0f0f0"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/edtTextCelular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Informe seu celular com DDD"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="#f0f0f0"
+        android:textColor="#f0f0f0"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/edtTextDataNascimento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Informe sua data de nascimento"
+        android:ems="10"
+        android:inputType="date"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="#f0f0f0"
+        android:textColor="#f0f0f0"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/edtTextMarcaCaminhao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Informe a marca de seu caminhão"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="#f0f0f0"
+        android:textColor="#f0f0f0"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/edtTextModeloCaminhao"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:hint="Informe o modelo de seu caminhão"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:backgroundTint="#f0f0f0"
+        android:textColor="#f0f0f0"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/edtTextPlacaCaminhao"
+        android:hint="Informe a placa de seu caminhão"
+        android:layout_width="match_parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:backgroundTint="#f0f0f0"
+        android:textColor="#f0f0f0"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"/>
+
+</LinearLayout>
